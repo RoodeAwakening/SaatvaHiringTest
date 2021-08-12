@@ -59,7 +59,7 @@ export default function MattressPage() {
         <div className="container-navbar">
           {/* logo */}
           <div className="navbar-brand mb-0 h1">
-            <img id="logo" src={logo} />
+            <img id="logo" src={logo} alt='logo'/>
           </div>
           {/* shopping cart icon */}
           <div className="cart">

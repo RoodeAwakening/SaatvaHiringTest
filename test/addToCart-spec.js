@@ -1,4 +1,4 @@
-const assert = require("assert");
+
 const AddToCart = require("../src/Components/MattressPage/AddToCart.js");
 const expect = require("chai").expect;
 
