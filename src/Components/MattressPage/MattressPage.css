@@ -12,6 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.5em;
   text-align: center;
+  font-family: "Questrial";
 }
 .navbar {
   /* span the whole page */
@@ -27,7 +28,7 @@ body {
 }
 
 .navbar-brand {
-  padding-left: 10em;
+  padding-left: 5%;
 }
 
 #logo {
@@ -36,7 +37,7 @@ body {
 
 .cart {
   
-  padding-right: 6em;
+  padding-right: 5%;
 }
 
 .container-components {
@@ -108,6 +109,8 @@ body {
   background-color: #a6a19a;
   color: white;
 }
+
+
 
 .container-mattress-right-price {
   display: flex;

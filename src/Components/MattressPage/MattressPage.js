@@ -44,13 +44,13 @@ export default function MattressPage() {
       <div className="navbar-banner">
         <i className="fal fa fa-alarm-exclamation"></i>
         <span id="bannerTitle">
-          It's <span class="t-weight--normal">BLACK FRIDAY IN AUGUST!</span> Buy
+          It's <span className="t-weight--normal">BLACK FRIDAY IN AUGUST!</span> Buy
           More, Save More: Get up to{" "}
-          <span class="t-weight--normal">$450 OFF. 3 DAYS ONLY.</span> Ends
+          <span className="t-weight--normal">$450 OFF. 3 DAYS ONLY.</span> Ends
           Thursday 8/12.
         </span>
         &nbsp;
-        <span class="banner__link" tabindex="0" role="link">
+        <span className="banner__link" tabIndex="0" role="link">
           Learn&nbsp;More
         </span>
       </div>
