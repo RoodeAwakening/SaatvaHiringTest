@@ -1,0 +1,209 @@
+body {
+  background-color: #f6f5f3;
+}
+
+/* navbar components */
+.navbar-banner {
+  background-color: black;
+  color:white;
+  font-weight: 400;
+  min-height: 40px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1.5em;
+  text-align: center;
+}
+.navbar {
+  /* span the whole page */
+  width: 100%;
+  display: flex;
+  background-color: #FFFFFF;
+}
+.container-navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  padding-left: 10em;
+}
+
+#logo {
+  width: 4em;
+}
+
+.cart {
+  
+  padding-right: 6em;
+}
+
+.container-components {
+  display: flex;
+}
+
+/* mattress image components */
+.mattress-left-images {
+  object-fit: contain;
+  /* keep the image size constrained to the div */
+  max-width: 100%;
+  max-height: 100%;
+  /* center the image */
+  margin: 0 auto;
+  /* make sure the image is never larger than the div */
+  width: 100%;
+  height: 75%;
+
+  padding-right: 1.5em;
+}
+
+.container-mattress-left {
+  width: 75%;
+  height: 500px;
+}
+
+/* right side components */
+.container-mattress-right {
+  width: 50%;
+  height: 75%;
+}
+
+.container-mattress-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-mattress-right-header h2 {
+  font-family: "Source Serif Pro";
+}
+
+.container-mattress-right-header {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.container-mattress-right-select-mattress {
+  font-family: "Questrial";
+}
+
+.container-mattress-right-select-mattress-buttons {
+  display: flex;
+  padding-bottom: 2em;
+}
+
+.mattress-button {
+  margin: 0 auto;
+  padding: 0;
+  display: table-cell;
+  vertical-align: middle;
+  border: none;
+  width: 35%;
+
+  height: 50px;
+}
+
+.mattress-button:focus {
+  background-color: #a6a19a;
+  color: white;
+}
+
+.container-mattress-right-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-mattress-right-price-name{
+
+  font-weight: bold;
+}
+
+.container-mattress-right-rating {
+  padding-top: 1em;
+}
+
+.star-rating-stars {
+  padding-bottom: 2em;
+}
+
+.addToCartButton {
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  display: table-cell;
+  vertical-align: middle;
+  border: none;
+  background-color: #d4aa63;
+  cursor: pointer;
+
+ 
+    animation: glowing 1300ms infinite;
+  
+}
+
+/* animation for button */
+@keyframes glowing {
+  0% {
+    background-color: #d4aa63;
+    box-shadow: 0 0 3px #ebad42;
+  }
+  50% {
+    background-color: #e2991c;
+    box-shadow: 0 0 10px #f59d05;
+  }
+  100% {
+    background-color: #d4aa63;
+    box-shadow: 0 0 3px #ebad42;
+  }
+}
+
+/* convert for mobile */
+@media (max-width: 600px) {
+  /* navbar components */
+  .navbar{  
+    width: 100%;
+    
+  }
+ 
+  
+  .navbar-brand {
+    padding-left: 1em;
+  }
+  
+  #logo {
+    width: 4em;
+  }
+  
+  .cart {
+    
+    padding-right: 1em;
+  }
+
+  .navbar-banner {
+    font-size: 1em;
+    padding: .5em 1em;
+  }
+
+
+  /* rest of the page */
+  .container-mattress-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 12em;
+  }
+  .container-components {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.container-mattress-right{
+  width: 95%;
+}
+  /* header */
+  .container-mattress-right-header h2{
+    width: 100%;
+  }
+}
